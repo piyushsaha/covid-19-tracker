@@ -1,0 +1,24 @@
+.home {
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.title {
+    padding-bottom: 20px;
+}
+
+.total>h2, .active>h2, .recovered>h2, .deaths>h2 {
+    font-weight: bold;
+}
+.total {
+    color: rgb(41, 41, 238);
+}
+.active {
+    color: rgb(255, 136, 0);
+}
+.recovered {
+    color: green;
+}
+.deaths {
+    color: red;
+}

@@ -1,0 +1,27 @@
+.my-nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 50px 20px 10px grey;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlinks > div {
+    padding: 20px;
+}
+
+.navlink > a {
+    color: white;
+    text-decoration: none;
+}
+
