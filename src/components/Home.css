@@ -3,6 +3,7 @@
     margin: auto;
     text-align: center;
 }
+
 .title {
     padding-bottom: 20px;
 }
@@ -10,15 +11,47 @@
 .total>h2, .active>h2, .recovered>h2, .deaths>h2 {
     font-weight: bold;
 }
+
 .total {
     color: rgb(41, 41, 238);
 }
+
 .active {
     color: rgb(255, 136, 0);
 }
+
 .recovered {
     color: green;
 }
+
 .deaths {
     color: red;
+}
+
+.statesCases {
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.state-t {
+    width: 30%;
+}
+
+total-t, active-t, recovered-t, deaths-t {
+    width: 15%;
+}
+
+th {
+    background-color: rgb(226, 228, 227);
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.data > .state {
+    text-align: left;
+    font-weight: bold;
+}
+.data > td {
+    border: 1px solid #000000;
+    padding: 5px;
 }
