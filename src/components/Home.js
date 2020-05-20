@@ -26,7 +26,7 @@ class Home extends React.Component {
     render() {
         const india = this.state.indiaCases ? (
             <Container>
-                <Row>
+                <Row className={"total-data"}>
                     <Col sm={12} md={3}>
                         <div className="total"><h2>Total</h2>
                             <br />
@@ -86,6 +86,7 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <div className="title"><h1>Covid-19 cases in India</h1></div>
+                <hr/>
                 <br />
                 {india}
                 <br />

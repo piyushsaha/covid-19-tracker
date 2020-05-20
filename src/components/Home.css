@@ -47,11 +47,21 @@ th {
     border: 1px solid #000000;
 }
 
-.data > .state {
+.data>.state {
     text-align: left;
     font-weight: bold;
 }
-.data > td {
+
+.data>td {
     border: 1px solid #000000;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .title h1 {
+        font-size: 36px;
+    }
+    .total-data h2, .total-data span {
+        font-size: 26px;
+    }
 }
