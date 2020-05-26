@@ -5,4 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
 }
