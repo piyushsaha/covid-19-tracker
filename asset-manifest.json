@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/covid-19-tracker/static/css/main.2b1f2473.chunk.css",
+    "main.css": "/covid-19-tracker/static/css/main.ac7ca2f2.chunk.css",
     "main.js": "/covid-19-tracker/static/js/main.ae5225cf.chunk.js",
     "main.js.map": "/covid-19-tracker/static/js/main.ae5225cf.chunk.js.map",
     "runtime-main.js": "/covid-19-tracker/static/js/runtime-main.94eb6b52.js",
@@ -8,15 +8,15 @@
     "static/js/2.b4dd35fa.chunk.js": "/covid-19-tracker/static/js/2.b4dd35fa.chunk.js",
     "static/js/2.b4dd35fa.chunk.js.map": "/covid-19-tracker/static/js/2.b4dd35fa.chunk.js.map",
     "index.html": "/covid-19-tracker/index.html",
-    "precache-manifest.bc64203b857db33db7cee85baae57184.js": "/covid-19-tracker/precache-manifest.bc64203b857db33db7cee85baae57184.js",
+    "precache-manifest.f9893ac24a00cdeac209c31fbfec5bdf.js": "/covid-19-tracker/precache-manifest.f9893ac24a00cdeac209c31fbfec5bdf.js",
     "service-worker.js": "/covid-19-tracker/service-worker.js",
-    "static/css/main.2b1f2473.chunk.css.map": "/covid-19-tracker/static/css/main.2b1f2473.chunk.css.map",
+    "static/css/main.ac7ca2f2.chunk.css.map": "/covid-19-tracker/static/css/main.ac7ca2f2.chunk.css.map",
     "static/js/2.b4dd35fa.chunk.js.LICENSE.txt": "/covid-19-tracker/static/js/2.b4dd35fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.94eb6b52.js",
     "static/js/2.b4dd35fa.chunk.js",
-    "static/css/main.2b1f2473.chunk.css",
+    "static/css/main.ac7ca2f2.chunk.css",
     "static/js/main.ae5225cf.chunk.js"
   ]
 }
