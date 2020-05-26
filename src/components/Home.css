@@ -1,5 +1,5 @@
 .home {
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     text-align: center;
 }
@@ -58,10 +58,10 @@ th {
 }
 
 @media screen and (max-width: 768px) {
-    .title h1 {
-        font-size: 36px;
+    h1 {
+        font-size: 32px;
     }
     .total-data h2, .total-data span {
-        font-size: 26px;
+        font-size: 20px;
     }
 }

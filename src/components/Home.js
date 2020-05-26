@@ -27,21 +27,21 @@ class Home extends React.Component {
         const india = this.state.indiaCases ? (
             <Container>
                 <Row className={"total-data"}>
-                    <Col sm={12} md={3}>
+                    <Col xs={6} md={3}>
                         <div className="total"><h2>Total</h2>
                             <br />
                             <h3><Countup end={this.state.indiaCases.confirmed} duration={1.5} /></h3>
                         </div>
                         <br /> <br />
                     </Col>
-                    <Col sm={12} md={3}>
+                    <Col xs={6} md={3}>
                         <div className="active"><h2>Active</h2>
                             <br />
                             <h3><Countup end={this.state.indiaCases.active} duration={1.5} /></h3>
                         </div>
                         <br /> <br />
                     </Col>
-                    <Col sm={12} md={3}>
+                    <Col xs={6} md={3}>
                         <div className="recovered"><h2>Recovered</h2>
                             <br />
                             <h3><Countup end={this.state.indiaCases.recovered} duration={1.5} /></h3>
@@ -49,7 +49,7 @@ class Home extends React.Component {
                         </div>
                         <br /> <br />
                     </Col>
-                    <Col sm={12} md={3}>
+                    <Col xs={6} md={3}>
                         <div className="deaths"><h2>Deaths</h2>
                             <br />
                             <h3><Countup end={this.state.indiaCases.deaths} duration={1.5} /></h3>
